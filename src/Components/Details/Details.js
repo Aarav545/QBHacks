@@ -16,18 +16,18 @@ export default class About extends React.Component {
             <Fade Botton>
             <Grid.Row>
               
-              <Header className={"details-text"}>Date: December 1, 2019</Header>
+              <Header className={"details-text"}>Date: March 18, 2023 ---- April 2, 2023</Header>
            
             </Grid.Row>
             <Grid.Row>
             
-              <Header className={"details-text"} >Time: 8am - 8pm </Header>
+              <Header className={"details-text"} >Time: The Entire Two Weeks! </Header>
             
             </Grid.Row>
             <Grid.Row>
             
               <Header  className={"details-text"}>
-                Location: 4044 Quakerbridge Rd, Mercerville, NJ 08619
+                Location: Virtual!
               </Header>
               
             </Grid.Row>
@@ -42,19 +42,19 @@ export default class About extends React.Component {
             </Fade>
           </Grid.Column>
 
-          <Grid.Column>
-          <div className={"map-contain"}>
-            <iframe
-              className={"map"}
-              width="600"
-              height="450"
-              frameBorder="0"
-              style={{ border: "0" }}
-              src="https://maps.google.com/maps?q=4044%20Quakerbridge%20Rd%2C%20Mercerville%2C%20NJ%2008619&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              allowFullScreen
-            />
-          </div>
-          </Grid.Column>
+//           <Grid.Column>
+//           <div className={"map-contain"}>
+//             <iframe
+//               className={"map"}
+//               width="600"
+//               height="450"
+//               frameBorder="0"
+//               style={{ border: "0" }}
+//               src="https://maps.google.com/maps?q=4044%20Quakerbridge%20Rd%2C%20Mercerville%2C%20NJ%2008619&t=&z=13&ie=UTF8&iwloc=&output=embed"
+//               allowFullScreen
+//             />
+//           </div>
+//           </Grid.Column>
         </Grid>
         </div>
       </section>
