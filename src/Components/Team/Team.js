@@ -2,13 +2,17 @@ import React from "react";
 import { Header, Grid } from "semantic-ui-react";
 import "./Team.css";
 import Person from "./Person";
-import Daniel from "./people/daniel-small.png";
-import Jinal from "./people/jinal-small.png";
+import Daniel from "./people/logoxx.png";
+import Jinal from "./people/logoxx.png";
 import Rohan from "./people/rohan-small.png";
-import Darshil from "./people/darshil-new.jpg";
+import Darshil from "./people/logoxx.png";
 import Aarav from "./people/aarav-small.png";
 import Naab from "./people/nabeel.jpg";
 import Krish from "./people/krish.jpg";
+import Ansh from "./people/ansh1.png";
+import Vishal from "./people/vishal1.png";
+import Advitiya from "./people/advitiya.png"; 
+
 export default class Team extends React.Component {
   render() {
     return (
@@ -26,13 +30,11 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
-                    image={Rohan}
-                    name={"Rohan Deshpande"}
-                    role1={"President & Founder"}
-                    role2={"Director of Technology"}
-                    role3={"Website Developer"}
+                    image={Vishal}
+                    name={"Vishal Kanala"}
+                    role1={"President"}
                     link={
-                      "https://www.linkedin.com/in/rohan-deshpande-994b23160/"
+                      "https://www.linkedin.com/in/vishal-kanala-287b731b0/"
                     }
                   ></Person>
                 </Grid.Column>
@@ -43,12 +45,12 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
-                    image={Aarav}
-                    name={"Aaravsinh Solanki"}
-                    role1={"Organizer"}
-                    role2={"Director of Logistics"}
+                    image={Ansh}
+                    name={"Ansh Tandon"}
+                    role1={"Director of Logistics"}
+                    role2={"Website Developer"}
                     link={
-                      "https://www.linkedin.com/in/aaravsinh-solanki-652319195/"
+                      "https://www.linkedin.com/in/vishal-kanala-287b731b0/"
                     }
                   ></Person>
                 </Grid.Column>
@@ -58,12 +60,11 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
-                    name={"Darshil Patel"}
+                    name={"Vishnu Yelimeli"}
                     image={Darshil}
-                    role1={"Organizer"}
-                    role2={"Director of Marketing"}
+                    role1={"Director of Outreach"}
                     link={
-                      "https://www.linkedin.com/in/darshil-patel-62aa38194/"
+                      "https://www.linkedin.com/"
                     }
                   ></Person>
                 </Grid.Column>
@@ -73,33 +74,30 @@ export default class Team extends React.Component {
                 <Grid.Column>
                   <Person
                     size={"small"}
-                    name={"Nabeel Ahmed"}
-                    image={Naab}
-                    link={"https://www.linkedin.com/in/nabeel-ahmed-773b78188/"}
-                    role1={"Organizer"}
-                    role2={"Director of UX/UI Design"}
+                    name={"Aditya Joshi"}
+                    image={Advitiya}
+                    link={"https://www.linkedin.com/"}
+                    role1={"Director of Technology"}
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
                   <Person
                     size={"small"}
                     image={Daniel}
-                    name={"Daniel Baumgartner"}
-                    role1={"Organizer"}
-                    role2={"Director of Finance"}
+                    name={"Rajin Sutradhar"}
+                    role1={"Director of Finance"}
                     link={
-                      "https://www.linkedin.com/in/daniel-baumgartner-93b6a8192/"
+                      "https://www.linkedin.com/"
                     }
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
                   <Person
                     size={"small"}
-                    name={"Jinal Shah"}
+                    name={"Lingesh Ranjith"}
                     image={Jinal}
-                    role1={"Organizer"}
-                    role2={"Workshop Coordinator"}
-                    link={"https://www.linkedin.com/in/jinalshah2002/"}
+                    role1={"Workshop Coordinator"}
+                    link={"https://www.linkedin.com/"}
                   ></Person>
                 </Grid.Column>
               </Grid.Row>
