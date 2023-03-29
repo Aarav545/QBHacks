@@ -33,11 +33,11 @@ export default class HomePage extends React.Component {
                   </Grid.Row>
 
                   <Grid.Row>
-                    <Header className={"date"}>December 1, 2019</Header>
+                    <Header className={"date"}>March 18, 2023</Header>
                   </Grid.Row>
                   <Grid.Row>
                     <div className={"reg-button-contain"}>
-                      <Button target={"blank"} href={"https://rohandeshpande725226.typeform.com/to/M4XEyz"}className={"reg-button"}>Register</Button>
+                      <Button target={"blank"} href={"https://forms.gle/MbxJGD3WkwRG6Xxy9"}className={"reg-button"}>Register</Button>
                     </div>
                   </Grid.Row>
                 </div>
